@@ -15,3 +15,13 @@ API en **FastAPI** + pipeline **ETL** (normalización CSV) + módulo **analytics
 ```bash
 python >= 3.10
 pip install -r requirements.txt
+
+## Variables de entorno
+
+Crear .env en la raíz:
+
+OPENAI_API_KEY=tu_api_key
+
+uvicorn main:app --reload
+
+Abrir: http://127.0.0.1:8000
