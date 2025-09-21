@@ -1,0 +1,6 @@
+cd C:\Users\David` Donoso\Desktop\API
+
+pip install -r requirements.txt
+python -m uvicorn main:app --reload
+
+abrir index.html manualmente
